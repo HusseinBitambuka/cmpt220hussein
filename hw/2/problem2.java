@@ -1,4 +1,5 @@
 import java.util.*;
+// JA: Always add comments to your code. Be careful with the formatting.
 public class problem2{
     public static void main (String[]args){
 Scanner input= new Scanner(System.in);

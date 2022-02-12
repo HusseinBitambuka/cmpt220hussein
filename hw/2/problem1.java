@@ -1,5 +1,6 @@
 import java.util.*;
-import math;
+//import math;
+// Always add comments to your code
 public class problem1{
     public static void main (String[]args){
         System.out.println("This program displays the diameter and area");

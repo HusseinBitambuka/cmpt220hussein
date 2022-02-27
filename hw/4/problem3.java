@@ -29,7 +29,7 @@ public class problem3{
                     String gene= startGene.substring(0, endGene2); // the gene
                     System.out.println(gene);
                 }
-                else if (startGene.contains(endGenome3)){
+                else if (startGene.contains(endGenome3)){ //JA: Of these three, you have to find the closest to the start
                     int endGene3=startGene.indexOf(endGenome3); // the position of the third sequence that ends a gene
                     String gene= startGene.substring(0, endGene3); // the gene
                     System.out.println(gene);

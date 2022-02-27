@@ -5,6 +5,7 @@ public class problem4{
         System.out.println("Enter a positive integer: ");
         int userInput=input.nextInt();
         int factor=1;
+        // JA: You should explain your logic here. I can't follow it.
         for(int i=2; i<=Math.sqrt(userInput); i++){
             if (userInput%i==0){
                 userInput/=i;

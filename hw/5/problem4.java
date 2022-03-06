@@ -7,6 +7,8 @@ public class problem4{
         System.out.println("The hours, minutes, and seconds for total seconds is "+
        seconds+" "+ format(seconds));
     }
+
+    // JA: The logic is not correct
     public static String format (long seconds){
         long hour= seconds/(3600);// conversion from seconds to hours
         long remainder= seconds% 3600;// the remaining seconds after everything is turned into hours

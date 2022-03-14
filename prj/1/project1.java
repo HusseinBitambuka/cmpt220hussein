@@ -1,3 +1,4 @@
+// JA: Header commets? WHat does this program do?
 import java.util.Scanner;
 public class project1{
     public static void main(String[] args){

@@ -10,6 +10,7 @@ public class Problem2{
         double area=getArea(polygone);// the area of the polygone
         System.out.print("the area of the convex polygone is: "+ area);
     }
+    // JA: I'm not sure I understand this logic, but the calculation is wrong
     public static double getArea(double[] point){
         double areaFirstTriangle=Math.abs(point[0]*(point[3]-point[5])+point[2]*(point[5]-point[1])+point[4]*(point[1]-point[3]))/2; // the area of the first triangle given the first triangle
         double areaSecondTriangle=Math.abs(point[0]*(point[5]-point[7])+point[4]*(point[7]-point[1])+point[6]*(point[1]-point[5]))/2; // the area of the second triangle

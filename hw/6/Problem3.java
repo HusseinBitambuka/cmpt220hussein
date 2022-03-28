@@ -12,6 +12,7 @@ public class Problem3{
                 String collector=""+s.charAt(i);
             }            
         }
+        // JA: There are syntax errors
         char digits[]=collector.toCharArray();
         for(int j=0; j<collector.length;j++){
         }

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import Point;
+//import Point; // JA: No need to do this because they are in the same package
 public class Problem2{
     public static void main(String []args){
         Scanner input= new Scanner(System.in);

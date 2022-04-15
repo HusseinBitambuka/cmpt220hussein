@@ -2,15 +2,18 @@ import java.util.Scanner;
 public class Project3{
     public static void main(String [] args){
         Scanner input=new Scanner(System.in);
+        // JA: The first number is the width and the second one is the length
         System.out.println("Please enter the length: ");
         int length=input.nextInt();
         System.out.println("Please enter the width: ");
         int width=input.nextInt();
         char [][] game=new char [length][width]; //crating a matrix of characters
+        input.nextLine(); 
         for(int i=0; i<game.length;i++){
             // getting input in the matrix
+            String line = input.nextLine(); 
             for(int j=0; j<game[i].length;j++){ 
-                game[i][j]=input.next().charAt(0);
+                game[i][j]=line.charAt(j);
             }
         }
         if (getEntryDoorWidth(game)!=null){

@@ -22,7 +22,7 @@ public class Problem2{
         Arrays.sort(B);// sort the array in from the largest to smallest
         ArrayList<Integer> outer =new ArrayList<>(); // the arraylist to be returned
         ArrayList<String> verifier=new ArrayList<>(); // the arraylist that verifies the other weight of the container
-        ArrayList<Integer> modifier = new Arraylist<>(Arrays.asList(B)); // convertion of the sorted array into the array list
+        ArrayList<Integer> modifier = new Arraylist<>(Arrays.asList(B)); // convertion of the sorted array into the array list // JA: Typo  
         for(int i=0;i<B.length;i++){
             // making an arraylist from the arra
             verifier.add(String.valueOf(B[i]));

@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.GregorianCalendar;
-import java.util.Collection;
 public class Problem3{
     public static void main(String [] args){
         ArrayList<Flight> flights=new ArrayList<>();
@@ -57,7 +56,7 @@ class Itinerary{
 long getTotalTime(){
     // converting milliseconds to minutes
     long time=(flights.get(0).getDepartureTime().getTimeInMillis()-flights.get(flights.size()-1).getArrivalTime().getTimeInMillis())/(1000*60);
-    return time;
+    return -time;
 }
 long getTotatFlighttime(){
     // adding all the time spent flying

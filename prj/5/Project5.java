@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import Complex;
+//import Complex;
 public class Project5{
     public static void main(String [] args){
         Scanner input=new Scanner(System.in);
@@ -19,7 +19,7 @@ public class Project5{
         " * "+" ( "+ number2.toString()+" )" +" = "+ " ( "+ number1.multiply(number2).toString()+" )" );
         System.out.println("( " + number1.toString()+" )"+
         " / "+" ( "+ number2.toString()+" )" +" = "+ " ( "+ number1.divide(number2).toString()+" )" );
-        System.out.print("| "+number1.toString()+" |"+" = "+ Complex.abs(number1));
+        System.out.print("| "+number1.toString()+" |"+" = "+ number1.abs());
 
         
     }
